@@ -4,7 +4,9 @@
 \pard\sa200\sl276\slmult1\qc\cf1\b\i\f0\fs60\lang9 Arduino\par
 \tab\par
 
-\pard\sa200\sl276\slmult1\cf0\i0\fs40 BreadBoards :\par
+\pard\sa200\sl276\slmult1\cf0\i0\fs40 Check-Up :\par
+\fs28 - Go to Tools --> Board --> UNO && Port --> Check COM if connected to our arduino Board.\par
+\fs40 BreadBoards :\par
 \fs28 - A breadboard is a rectangular plastic board with a bunch of tiny holes in it. These holes let you easily insert electronic components to prototype (meaning to build and test an early version of) an electronic circuit.\fs40\par
 
 \pard\sa200\sl240\slmult1\fs28{\pict{\*\picprop}\wmetafile8\picw18648\pich6223\picwgoal8640\pichgoal2880 
@@ -21286,7 +21288,8 @@ c0c0c000cc99990099666600ff6633009933330033000000cc6633006633000066333300993300
 
 \pard\sa200\sl276\slmult1\par
 Blink LED :\par
-\fs28 - \fs40\par
+\fs28 - We need to set pinMode(pin, OUTPUT) --> initiate output electric signal as generator of 5V.\par
+- We use digitalWrite(pin , HIGH) to output the 5V signal.\fs40\par
 Analog Write:\par
 \fs28 - The opposite of the digital write (1 or 0), analog is variable from 0V to 5V (any value is included ), in the analogWrite function we use numbers from 0 to 255 (0->0V && 255->5V), its 8 bits.\tab\par
 \fs40 Pulse Width Modulation (PWM):\par
